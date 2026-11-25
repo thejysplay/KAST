@@ -1,0 +1,872 @@
+{
+ "agentdojo_banking": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "conditional",
+   "run2": "conditional",
+   "final": "inactive"
+  },
+  "DAC-SRD": {
+   "run1": "conditional",
+   "run2": "conditional",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdojo_slack": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "conditional",
+   "run2": "conditional",
+   "final": "inactive"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdojo_travel": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdojo_workspace": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "conditional",
+   "run2": "conditional",
+   "final": "inactive"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdyn-dailylife": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "conditional",
+   "run2": "conditional",
+   "final": "inactive"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdyn-github": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "agentdyn-shopping": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-SRD": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-SYS": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "inactive",
+   "run2": "active",
+   "final": "inactive"
+  }
+ },
+ "appworld": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-SRD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  }
+ },
+ "cline": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-SRD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "inactive",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ },
+ "openhands": {
+  "ENT-DI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "ENT-II": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PA-GA": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-UBD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-CS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "DAC-SRD": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-AT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-SCU": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "EXE-CCE": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-SYS": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "SC-DAT": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-MEM": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "PST-KB": {
+   "run1": "active",
+   "run2": "inactive",
+   "final": "inactive"
+  },
+  "PST-CFG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-RG": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "OT-ER": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  },
+  "HD-UI": {
+   "run1": "active",
+   "run2": "active",
+   "final": "active"
+  }
+ }
+}

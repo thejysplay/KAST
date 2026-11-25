@@ -1,0 +1,390 @@
+{
+ "model": "gemini",
+ "steps_compared": 255,
+ "steps_reference": 255,
+ "steps_missing": [],
+ "agent_fact": {
+  "agree": 0.886,
+  "kappa": 0.76
+ },
+ "exact_set": 0.765,
+ "exact_set_nonempty": 0.492,
+ "units": [
+  {
+   "unit": "ENT",
+   "ours": 28,
+   "coder": 32,
+   "both": 25,
+   "agree": 0.961,
+   "kappa": 0.81
+  },
+  {
+   "unit": "PA",
+   "ours": 41,
+   "coder": 54,
+   "both": 36,
+   "agree": 0.91,
+   "kappa": 0.7
+  },
+  {
+   "unit": "DAC",
+   "ours": 18,
+   "coder": 20,
+   "both": 14,
+   "agree": 0.961,
+   "kappa": 0.72
+  },
+  {
+   "unit": "EXE",
+   "ours": 41,
+   "coder": 58,
+   "both": 37,
+   "agree": 0.902,
+   "kappa": 0.69
+  },
+  {
+   "unit": "SC",
+   "ours": 4,
+   "coder": 6,
+   "both": 4,
+   "agree": 0.992,
+   "kappa": 0.8
+  },
+  {
+   "unit": "PST",
+   "ours": 12,
+   "coder": 11,
+   "both": 9,
+   "agree": 0.98,
+   "kappa": 0.77
+  },
+  {
+   "unit": "OT",
+   "ours": 26,
+   "coder": 33,
+   "both": 20,
+   "agree": 0.925,
+   "kappa": 0.64
+  },
+  {
+   "unit": "HD",
+   "ours": 3,
+   "coder": 2,
+   "both": 2,
+   "agree": 0.996,
+   "kappa": 0.8
+  }
+ ],
+ "nodes": [
+  {
+   "node": "ENT-DI",
+   "ours": 7,
+   "coder": 9,
+   "both": 7,
+   "agree": 0.992,
+   "kappa": 0.87,
+   "only_ours": [],
+   "only_coder": [
+    "CS0016 S03",
+    "CS0048 S03"
+   ]
+  },
+  {
+   "node": "ENT-II",
+   "ours": 21,
+   "coder": 23,
+   "both": 18,
+   "agree": 0.969,
+   "kappa": 0.8,
+   "only_ours": [
+    "CS0051 S14",
+    "CS0051 S16",
+    "CS0054 S04"
+   ],
+   "only_coder": [
+    "CS0026 S10",
+    "CS0045 S05",
+    "CS0045 S07",
+    "CS0054 S05",
+    "CS0064 S06"
+   ]
+  },
+  {
+   "node": "PA-GA",
+   "ours": 41,
+   "coder": 54,
+   "both": 36,
+   "agree": 0.91,
+   "kappa": 0.7,
+   "only_ours": [
+    "CS0045 S08",
+    "CS0046 S06",
+    "CS0054 S10",
+    "CS0059 S07",
+    "CS0064 S06"
+   ],
+   "only_coder": [
+    "CS0016 S03",
+    "CS0021 S02",
+    "CS0037 S03",
+    "CS0038 S05",
+    "CS0039 S06",
+    "CS0045 S09",
+    "CS0048 S04",
+    "CS0049 S07",
+    "CS0050 S08",
+    "CS0051 S14",
+    "CS0052 S10",
+    "CS0053 S07",
+    "CS0054 S04",
+    "CS0055 S03",
+    "CS0055 S04",
+    "CS0062 S05",
+    "CS0066 S07",
+    "CS0066 S08"
+   ]
+  },
+  {
+   "node": "DAC-UBD",
+   "ours": 12,
+   "coder": 14,
+   "both": 10,
+   "agree": 0.976,
+   "kappa": 0.76,
+   "only_ours": [
+    "CS0024 S04",
+    "CS0053 S07"
+   ],
+   "only_coder": [
+    "CS0026 S09",
+    "CS0051 S12",
+    "CS0051 S16",
+    "CS0066 S08"
+   ]
+  },
+  {
+   "node": "DAC-CS",
+   "ours": 5,
+   "coder": 5,
+   "both": 3,
+   "agree": 0.984,
+   "kappa": 0.59,
+   "only_ours": [
+    "CS0045 S09",
+    "CS0054 S10"
+   ],
+   "only_coder": [
+    "CS0045 S08",
+    "CS0050 S03"
+   ]
+  },
+  {
+   "node": "DAC-SRD",
+   "ours": 3,
+   "coder": 5,
+   "both": 3,
+   "agree": 0.992,
+   "kappa": 0.75,
+   "only_ours": [],
+   "only_coder": [
+    "CS0045 S08",
+    "CS0048 S05"
+   ]
+  },
+  {
+   "node": "EXE-AT",
+   "ours": 21,
+   "coder": 31,
+   "both": 17,
+   "agree": 0.929,
+   "kappa": 0.62,
+   "only_ours": [
+    "CS0037 S11",
+    "CS0053 S06",
+    "CS0054 S10",
+    "CS0059 S07"
+   ],
+   "only_coder": [
+    "CS0021 S02",
+    "CS0037 S03",
+    "CS0038 S05",
+    "CS0039 S06",
+    "CS0045 S04",
+    "CS0045 S05",
+    "CS0049 S07",
+    "CS0051 S09",
+    "CS0053 S07",
+    "CS0054 S04",
+    "CS0063 S14",
+    "CS0063 S16",
+    "CS0066 S07",
+    "CS0066 S08"
+   ]
+  },
+  {
+   "node": "EXE-SCU",
+   "ours": 13,
+   "coder": 17,
+   "both": 13,
+   "agree": 0.984,
+   "kappa": 0.86,
+   "only_ours": [],
+   "only_coder": [
+    "CS0037 S11",
+    "CS0045 S09",
+    "CS0055 S03",
+    "CS0055 S04"
+   ]
+  },
+  {
+   "node": "EXE-CCE",
+   "ours": 14,
+   "coder": 20,
+   "both": 12,
+   "agree": 0.961,
+   "kappa": 0.69,
+   "only_ours": [
+    "CS0045 S08",
+    "CS0046 S06"
+   ],
+   "only_coder": [
+    "CS0016 S03",
+    "CS0045 S09",
+    "CS0046 S05",
+    "CS0048 S04",
+    "CS0050 S08",
+    "CS0051 S14",
+    "CS0052 S10",
+    "CS0062 S05"
+   ]
+  },
+  {
+   "node": "SC-SYS",
+   "ours": 2,
+   "coder": 5,
+   "both": 2,
+   "agree": 0.988,
+   "kappa": 0.57,
+   "only_ours": [],
+   "only_coder": [
+    "CS0046 S06",
+    "CS0052 S10",
+    "CS0055 S07"
+   ]
+  },
+  {
+   "node": "SC-DAT",
+   "ours": 2,
+   "coder": 1,
+   "both": 1,
+   "agree": 0.996,
+   "kappa": 0.66,
+   "only_ours": [
+    "CS0046 S06"
+   ],
+   "only_coder": []
+  },
+  {
+   "node": "PST-MEM",
+   "ours": 3,
+   "coder": 2,
+   "both": 2,
+   "agree": 0.996,
+   "kappa": 0.8,
+   "only_ours": [
+    "CS0038 S03"
+   ],
+   "only_coder": []
+  },
+  {
+   "node": "PST-KB",
+   "ours": 3,
+   "coder": 3,
+   "both": 2,
+   "agree": 0.992,
+   "kappa": 0.66,
+   "only_ours": [
+    "CS0026 S06"
+   ],
+   "only_coder": [
+    "CS0026 S08"
+   ]
+  },
+  {
+   "node": "PST-CFG",
+   "ours": 6,
+   "coder": 6,
+   "both": 5,
+   "agree": 0.992,
+   "kappa": 0.83,
+   "only_ours": [
+    "CS0053 S04"
+   ],
+   "only_coder": [
+    "CS0053 S05"
+   ]
+  },
+  {
+   "node": "OT-RG",
+   "ours": 12,
+   "coder": 21,
+   "both": 11,
+   "agree": 0.957,
+   "kappa": 0.65,
+   "only_ours": [
+    "CS0026 S12"
+   ],
+   "only_coder": [
+    "CS0016 S03",
+    "CS0021 S04",
+    "CS0024 S05",
+    "CS0037 S03",
+    "CS0037 S06",
+    "CS0055 S01",
+    "CS0059 S09",
+    "CS0063 S08",
+    "CS0063 S18",
+    "CS0064 S09"
+   ]
+  },
+  {
+   "node": "OT-ER",
+   "ours": 15,
+   "coder": 17,
+   "both": 10,
+   "agree": 0.953,
+   "kappa": 0.6,
+   "only_ours": [
+    "CS0049 S11",
+    "CS0054 S10",
+    "CS0059 S10",
+    "CS0063 S15",
+    "CS0063 S17"
+   ],
+   "only_coder": [
+    "CS0037 S03",
+    "CS0037 S06",
+    "CS0050 S03",
+    "CS0051 S16",
+    "CS0059 S09",
+    "CS0063 S14",
+    "CS0066 S08"
+   ]
+  },
+  {
+   "node": "HD-UI",
+   "ours": 3,
+   "coder": 2,
+   "both": 2,
+   "agree": 0.996,
+   "kappa": 0.8,
+   "only_ours": [
+    "CS0026 S12"
+   ],
+   "only_coder": []
+  }
+ ],
+ "node_kappa_mean": 0.72,
+ "node_kappa_median": 0.7,
+ "unknown_codes": {}
+}

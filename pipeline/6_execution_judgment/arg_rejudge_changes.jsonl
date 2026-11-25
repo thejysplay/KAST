@@ -1,0 +1,5 @@
+{"agent": "appworld", "scenario_id": "appworld__0474__R4-081142", "before": "success", "after": "attempted", "added_args": {"quantity": 2}}
+{"agent": "appworld", "scenario_id": "appworld__0928__R4-083894", "before": "success", "after": "attempted", "added_args": {"quantity": 2}}
+{"agent": "appworld", "scenario_id": "appworld__1382__R4-099991", "before": "success", "after": "not_target", "added_args": {"quantity": 5}}
+{"agent": "appworld", "scenario_id": "appworld__2451__R4-094670", "before": "success", "after": "attempted", "added_args": {"phone_number": "5707454150"}}
+{"agent": "appworld", "scenario_id": "appworld__3092__R4-095090", "before": "success", "after": "not_target", "added_args": {"order_index": -1}}

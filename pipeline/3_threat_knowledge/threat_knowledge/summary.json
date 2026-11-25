@@ -1,0 +1,67 @@
+{
+ "cases_with_path": 23,
+ "branches": 35,
+ "events": 152,
+ "nodes_in_graph": 17,
+ "K": 51,
+ "K_evidence_pairs": 128,
+ "observed_sequences": 41,
+ "len": [
+  2,
+  9
+ ],
+ "starts": [
+  "ENT-DI",
+  "ENT-II",
+  "PST-CFG",
+  "PST-KB"
+ ],
+ "ends": [
+  "DAC-CS",
+  "DAC-SRD",
+  "DAC-UBD",
+  "EXE-AT+PA-GA",
+  "EXE-CCE+PA-GA",
+  "EXE-SCU+PA-GA",
+  "HD-UI",
+  "OT-ER",
+  "OT-RG",
+  "PST-MEM",
+  "SC-DAT",
+  "SC-SYS"
+ ],
+ "caps": {
+  "OT-RG": 2,
+  "EXE-CCE+PA-GA": 3,
+  "ENT-II": 3,
+  "DAC-UBD": 2,
+  "EXE-AT+PA-GA": 3,
+  "EXE-SCU+PA-GA": 2
+ },
+ "gen_all": 667701,
+ "after_start": 205557,
+ "after_end": 182289,
+ "after_cap": 135229,
+ "only_start": 205557,
+ "only_end": 592130,
+ "only_cap": 445169,
+ "observed_in_skeletons": 41,
+ "by_start": {
+  "ENT-DI": {
+   "all": 33245,
+   "observed": 9
+  },
+  "ENT-II": {
+   "all": 54303,
+   "observed": 20
+  },
+  "PST-CFG": {
+   "all": 31066,
+   "observed": 8
+  },
+  "PST-KB": {
+   "all": 16615,
+   "observed": 4
+  }
+ }
+}

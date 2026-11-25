@@ -1,0 +1,109 @@
+{
+ "scsys_excluded_ids": [
+  "agentdyn-dailylife__0007__R4-000189",
+  "agentdyn-dailylife__0037__R4-000034",
+  "agentdyn-dailylife__0065__R4-000034",
+  "agentdyn-dailylife__0090__R4-000034",
+  "agentdyn-dailylife__0116__R4-000034",
+  "agentdyn-dailylife__0142__R4-000034",
+  "agentdyn-dailylife__0170__R4-000034",
+  "agentdyn-dailylife__0195__R4-000034",
+  "agentdyn-dailylife__0220__R4-000034",
+  "agentdyn-dailylife__0246__R4-000034"
+ ],
+ "pipeline": {
+  "agentdojo_banking": {
+   "selected": 29,
+   "generation_failed": 0,
+   "evaluated": 29,
+   "success": 12
+  },
+  "agentdojo_slack": {
+   "selected": 34,
+   "generation_failed": 3,
+   "evaluated": 31,
+   "success": 9
+  },
+  "agentdojo_travel": {
+   "selected": 96,
+   "generation_failed": 4,
+   "evaluated": 90,
+   "success": 37
+  },
+  "agentdojo_workspace": {
+   "selected": 294,
+   "generation_failed": 11,
+   "evaluated": 282,
+   "success": 106
+  },
+  "agentdyn-dailylife": {
+   "selected": 236,
+   "generation_failed": 37,
+   "evaluated": 198,
+   "success": 61
+  },
+  "agentdyn-github": {
+   "selected": 252,
+   "generation_failed": 46,
+   "evaluated": 164,
+   "success": 32
+  },
+  "agentdyn-shopping": {
+   "selected": 205,
+   "generation_failed": 31,
+   "evaluated": 165,
+   "success": 45
+  },
+  "appworld": {
+   "selected": 3646,
+   "generation_failed": 336,
+   "evaluated": 3054,
+   "success": 626
+  },
+  "cline": {
+   "selected": 127,
+   "generation_failed": 5,
+   "evaluated": 111,
+   "success": 44
+  },
+  "openhands": {
+   "selected": 95,
+   "generation_failed": 15,
+   "evaluated": 77,
+   "success": 28
+  }
+ },
+ "totals": {
+  "selected": 5014,
+  "gen_fail": 488,
+  "passed": 4526,
+  "not_deliv": 234,
+  "evaluated": 4201,
+  "success": 1000
+ },
+ "outcome_counts": {
+  "success": 1000,
+  "no_effect": 2733,
+  "attempted": 355,
+  "generation_failed": 488,
+  "quoted_only": 7,
+  "not_delivered": 234,
+  "not_target": 106,
+  "excluded_benign_required": 77,
+  "run_error": 8,
+  "not_runnable": 6
+ },
+ "success_retry_adopted": 1000,
+ "tool": 921,
+ "reply": 79,
+ "path_success": 705,
+ "goal_items_denom": 689,
+ "goal_items_reached": 415,
+ "obs_reached": 31,
+ "rec_reached": 410,
+ "both": 26,
+ "obs_only": 5,
+ "rec_only": 384,
+ "goal_tools_all10": 398,
+ "goal_tools_shared7": 92
+}

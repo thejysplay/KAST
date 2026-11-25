@@ -1,0 +1,514 @@
+{
+ "V": [
+  "DAC-CS",
+  "DAC-SRD",
+  "DAC-UBD",
+  "ENT-DI",
+  "ENT-II",
+  "EXE-AT",
+  "EXE-AT+PA-GA",
+  "EXE-CCE+PA-GA",
+  "EXE-SCU+PA-GA",
+  "HD-UI",
+  "OT-ER",
+  "OT-RG",
+  "PST-CFG",
+  "PST-KB",
+  "PST-MEM",
+  "SC-DAT",
+  "SC-SYS"
+ ],
+ "K": [
+  {
+   "from": "DAC-CS",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0054:E4->E5"
+   ]
+  },
+  {
+   "from": "DAC-CS",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0016-A:E4->E5",
+    "CS0067:E3->E4"
+   ]
+  },
+  {
+   "from": "DAC-SRD",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0016-A:E4->E5",
+    "CS0067:E3->E4"
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0037:E3->E4",
+    "CS0037:E5->E6",
+    "CS0039:E3->E4",
+    "CS0066-A:E3->E4"
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0063-F:E4->E5"
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "OT-ER",
+   "evidence": [
+    "CS0021-A:E2->E3"
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0059:E4->E5",
+    "CS0066-C:E3->E4"
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "DAC-SRD",
+   "evidence": [
+    "CS0048-A:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0052:E1->E2",
+    "CS0062:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0048-B:E1->E2",
+    "CS0048-C:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0016-A:E1->E2",
+    "CS0016-B:E1->E2",
+    "CS0048-A:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "DAC-UBD",
+   "evidence": [
+    "CS0021-A:E1->E2",
+    "CS0024:E2->E3"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0021-B:E1->E2",
+    "CS0037:E1->E2",
+    "CS0039:E1->E2",
+    "CS0051:E5->E6",
+    "CS0059:E2->E3",
+    "CS0064-B:E3->E4",
+    "CS0066-A:E1->E2",
+    "CS0066-C:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0045:E1->E2",
+    "CS0046:E1->E2",
+    "CS0051:E1->E2",
+    "CS0051:E7->E8",
+    "CS0054:E2->E3",
+    "CS0055:E1->E2",
+    "CS0067:E1->E2"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "HD-UI",
+   "evidence": [
+    "CS0026:E2->E3",
+    "CS0049:E2->E3"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0021-A:E1->E2",
+    "CS0024:E2->E3",
+    "CS0026:E2->E3",
+    "CS0041:E2->E3",
+    "CS0064-A:E3->E4"
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "PST-MEM",
+   "evidence": [
+    "CS0038:E1->E2",
+    "CS0063-A:E1->E2",
+    "CS0063-B:E1->E2",
+    "CS0063-C:E1->E2",
+    "CS0063-D:E1->E2",
+    "CS0063-E:E1->E2",
+    "CS0063-F:E1->E2",
+    "CS0066-B:E1->E2"
+   ]
+  },
+  {
+   "from": "EXE-AT",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0053:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "DAC-UBD",
+   "evidence": [
+    "CS0037:E2->E3",
+    "CS0037:E4->E5",
+    "CS0038:E3->E4",
+    "CS0039:E2->E3",
+    "CS0059:E3->E4",
+    "CS0063-F:E3->E4",
+    "CS0064-B:E4->E5",
+    "CS0066-A:E2->E3",
+    "CS0066-C:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "ENT-II",
+   "evidence": [
+    "CS0051:E6->E7"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0052:E2->E3",
+    "CS0062:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    "CS0037:E6->E7",
+    "CS0039:E4->E5",
+    "CS0054:E5->E6",
+    "CS0064-B:E4->E5",
+    "CS0066-A:E4->E5",
+    "CS0066-C:E5->E6"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "SC-DAT",
+   "evidence": [
+    "CS0063-B:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "SC-SYS",
+   "evidence": [
+    "CS0063-C:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-CS",
+   "evidence": [
+    "CS0016-A:E3->E4",
+    "CS0045:E4->E5",
+    "CS0048-B:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-SRD",
+   "evidence": [
+    "CS0016-A:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-UBD",
+   "evidence": [
+    "CS0053:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "ENT-II",
+   "evidence": [
+    "CS0064-A:E2->E3",
+    "CS0064-B:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0055:E5->E6"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0055:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    "CS0045:E4->E5",
+    "CS0049:E5->E6",
+    "CS0052:E3->E4",
+    "CS0053:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "PST-CFG",
+   "evidence": [
+    "CS0051:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "SC-DAT",
+   "evidence": [
+    "CS0046:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "SC-SYS",
+   "evidence": [
+    "CS0016-B:E3->E4"
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "DAC-CS",
+   "evidence": [
+    "CS0054:E3->E4",
+    "CS0067:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "DAC-SRD",
+   "evidence": [
+    "CS0067:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0046:E2->E3",
+    "CS0048-B:E2->E3",
+    "CS0049:E4->E5",
+    "CS0051:E2->E3",
+    "CS0051:E8->E9",
+    "CS0055:E2->E3",
+    "CS0055:E4->E5"
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "HD-UI",
+   "evidence": [
+    "CS0045:E2->E3"
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    "CS0063-D:E3->E4",
+    "CS0063-E:E3->E4",
+    "CS0063-F:E5->E6"
+   ]
+  },
+  {
+   "from": "HD-UI",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0045:E3->E4"
+   ]
+  },
+  {
+   "from": "HD-UI",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0049:E3->E4"
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0066-C:E4->E5"
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0016-A:E2->E3",
+    "CS0016-B:E2->E3"
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "OT-ER",
+   "evidence": [
+    "CS0021-A:E2->E3",
+    "CS0059:E5->E6"
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "ENT-II",
+   "evidence": [
+    "CS0041:E1->E2",
+    "CS0049:E1->E2",
+    "CS0051:E4->E5",
+    "CS0054:E1->E2"
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "EXE-AT",
+   "evidence": [
+    "CS0053:E1->E2"
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    "CS0064-A:E1->E2",
+    "CS0064-B:E1->E2"
+   ]
+  },
+  {
+   "from": "PST-KB",
+   "to": "ENT-II",
+   "evidence": [
+    "CS0024:E1->E2",
+    "CS0026:E1->E2",
+    "CS0059:E1->E2"
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    "CS0038:E2->E3",
+    "CS0063-B:E2->E3",
+    "CS0063-C:E2->E3",
+    "CS0063-F:E2->E3"
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    "CS0063-D:E2->E3",
+    "CS0063-E:E2->E3"
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "OT-RG",
+   "evidence": [
+    "CS0063-A:E2->E3"
+   ]
+  }
+ ],
+ "policy": {
+  "starts": [
+   "ENT-DI",
+   "ENT-II",
+   "PST-CFG",
+   "PST-KB"
+  ],
+  "ends": [
+   "DAC-CS",
+   "DAC-SRD",
+   "DAC-UBD",
+   "EXE-AT+PA-GA",
+   "EXE-CCE+PA-GA",
+   "EXE-SCU+PA-GA",
+   "HD-UI",
+   "OT-ER",
+   "OT-RG",
+   "PST-MEM",
+   "SC-DAT",
+   "SC-SYS"
+  ],
+  "len": [
+   2,
+   9
+  ],
+  "caps": {
+   "DAC-UBD": 2,
+   "ENT-II": 3,
+   "EXE-AT+PA-GA": 3,
+   "EXE-CCE+PA-GA": 3,
+   "EXE-SCU+PA-GA": 2,
+   "OT-RG": 2,
+   "DAC-SRD": 1,
+   "OT-ER": 1,
+   "SC-DAT": 1,
+   "SC-SYS": 1,
+   "DAC-CS": 1,
+   "HD-UI": 1,
+   "PST-MEM": 1,
+   "PST-CFG": 1,
+   "EXE-AT": 1,
+   "ENT-DI": 1,
+   "PST-KB": 1
+  }
+ },
+ "counts": {
+  "V": 17,
+  "K": 51,
+  "skeletons": 135229,
+  "by_start": {
+   "ENT-DI": 33245,
+   "ENT-II": 54303,
+   "PST-CFG": 31066,
+   "PST-KB": 16615
+  },
+  "_note": "ends and counts reflect the final (canonical) policy and are derived from skeletons.json (the authoritative path set: 135,229 paths, ENT-II-start 54,303, DAC-SRD is a valid terminal node). The earlier cached counts (126,431; projections/policy_ok diagnostics) predated the DAC-SRD terminal-node decision and were removed."
+ }
+}

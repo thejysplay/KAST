@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+
+# Working directory created by pipeline/7_paper_numbers/reproduce.sh
+data/_unpacked/

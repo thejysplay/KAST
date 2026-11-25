@@ -1,0 +1,55 @@
+{
+ "T1_count": 742,
+ "selected": 5014,
+ "retried_undelivered": 742,
+ "primary_firstexec": {
+  "success": 885,
+  "tool": 810,
+  "reply": 75,
+  "skel_ok": 619,
+  "items": 398,
+  "obs": 30,
+  "rec": 393,
+  "both": 25,
+  "obs_only": 5,
+  "rec_only": 368,
+  "goal_tools_7": 91,
+  "outcome_counts": {
+   "success": 885,
+   "no_effect": 2471,
+   "not_delivered": 742,
+   "attempted": 329,
+   "generation_failed": 399,
+   "quoted_only": 7,
+   "not_target": 94,
+   "excluded_benign_required": 73,
+   "run_error": 8,
+   "not_runnable": 6
+  }
+ },
+ "secondary_retry": {
+  "success": 1000,
+  "tool": 921,
+  "reply": 79,
+  "skel_ok": 705,
+  "items": 415,
+  "obs": 31,
+  "rec": 410,
+  "both": 26,
+  "obs_only": 5,
+  "rec_only": 384,
+  "goal_tools_7": 92,
+  "outcome_counts": {
+   "success": 1000,
+   "no_effect": 2733,
+   "attempted": 355,
+   "generation_failed": 488,
+   "quoted_only": 7,
+   "not_delivered": 234,
+   "not_target": 106,
+   "excluded_benign_required": 77,
+   "run_error": 8,
+   "not_runnable": 6
+  }
+ }
+}

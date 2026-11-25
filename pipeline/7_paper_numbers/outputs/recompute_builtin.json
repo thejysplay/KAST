@@ -1,0 +1,21 @@
+{
+ "kast_gt7": 97,
+ "bi_gt7": 38,
+ "gt_common": 23,
+ "gt_kast_only": 74,
+ "gt_bi_only": 15,
+ "kast_tech7": 38,
+ "bi_tech7": 34,
+ "tech_common": 34,
+ "tech_kast_only": 4,
+ "tech_bi_only": 0,
+ "tech_union": 38,
+ "ie_kast": 14,
+ "ie_bi": 12,
+ "ie_union": 14,
+ "tech_all10": 51,
+ "ie_all10": 18,
+ "kast_runs": 1020,
+ "bi_runs": 1189,
+ "bi_success": 651
+}

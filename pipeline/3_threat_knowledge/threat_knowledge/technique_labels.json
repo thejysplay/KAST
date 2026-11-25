@@ -1,0 +1,2802 @@
+{
+ "n_2gram": 51,
+ "edges": [
+  {
+   "from": "DAC-CS",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0054---E4->CS0054---E5",
+     "from_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-CS",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E4->CS0016-A-E5",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    },
+    {
+     "pair": "CS0067---E3->CS0067---E4",
+     "from_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ],
+     "to_tech": [
+      "AML.T0057",
+      "LLM Data Leakage"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    [
+     "AML.T0057",
+     "LLM Data Leakage"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-SRD",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E4->CS0016-A-E5",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    },
+    {
+     "pair": "CS0067---E3->CS0067---E4",
+     "from_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ],
+     "to_tech": [
+      "AML.T0057",
+      "LLM Data Leakage"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    [
+     "AML.T0057",
+     "LLM Data Leakage"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0037---E3->CS0037---E4",
+     "from_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0037---E5->CS0037---E6",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0039---E3->CS0039---E4",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-A-E3->CS0066-A-E4",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0063-F-E4->CS0063-F-E5",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "OT-ER",
+   "evidence": [
+    {
+     "pair": "CS0021-A-E2->CS0021-A-E3",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0077",
+      "LLM Response Rendering"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0077",
+     "LLM Response Rendering"
+    ]
+   ]
+  },
+  {
+   "from": "DAC-UBD",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0059---E4->CS0059---E5",
+     "from_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ],
+     "to_tech": [
+      "AML.T0067",
+      "LLM Trusted Output Components Manipulation"
+     ]
+    },
+    {
+     "pair": "CS0066-C-E3->CS0066-C-E4",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0067",
+     "LLM Trusted Output Components Manipulation"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "DAC-SRD",
+   "evidence": [
+    {
+     "pair": "CS0048-A-E1->CS0048-A-E3",
+     "from_tech": [
+      "AML.T0069.002",
+      "System Prompt"
+     ],
+     "to_tech": [
+      "AML.T0069.002",
+      "System Prompt"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0069.002",
+     "System Prompt"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0052---E1->CS0052---E2",
+     "from_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0062---E1->CS0062---E2",
+     "from_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0048-B-E1->CS0048-B-E2",
+     "from_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ],
+     "to_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ]
+    },
+    {
+     "pair": "CS0048-C-E1->CS0048-C-E2",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-DI",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E1->CS0016-A-E2",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    },
+    {
+     "pair": "CS0016-B-E1->CS0016-B-E2",
+     "from_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ],
+     "to_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ]
+    },
+    {
+     "pair": "CS0048-A-E1->CS0048-A-E3",
+     "from_tech": [
+      "AML.T0069.002",
+      "System Prompt"
+     ],
+     "to_tech": [
+      "AML.T0069.002",
+      "System Prompt"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    [
+     "AML.T0069.002",
+     "System Prompt"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "DAC-UBD",
+   "evidence": [
+    {
+     "pair": "CS0021-A-E1->CS0021-A-E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ]
+    },
+    {
+     "pair": "CS0024---E3->CS0024---E4",
+     "from_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ],
+     "to_tech": [
+      "AML.T0061",
+      "LLM Prompt Self-Replication"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ],
+    [
+     "AML.T0061",
+     "LLM Prompt Self-Replication"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0021-B-E1->CS0021-B-E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0037---E1->CS0037---E2",
+     "from_tech": [
+      "AML.T0047",
+      "AI-Enabled Product or Service"
+     ],
+     "to_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ]
+    },
+    {
+     "pair": "CS0039---E1->CS0039---E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0051---E5->CS0051---E6",
+     "from_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ],
+     "to_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ]
+    },
+    {
+     "pair": "CS0059---E2->CS0059---E3",
+     "from_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ],
+     "to_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ]
+    },
+    {
+     "pair": "CS0064-B-E3->CS0064-B-E4",
+     "from_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-A-E1->CS0066-A-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-C-E1->CS0066-C-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0085.000",
+     "RAG Databases"
+    ],
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0108",
+     "AI Agent"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0045---E1->CS0045---E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0046---E1->CS0046---E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0051---E1->CS0051---E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0051---E7->CS0051---E8",
+     "from_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ],
+     "to_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ]
+    },
+    {
+     "pair": "CS0054---E2->CS0054---E3",
+     "from_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0055---E1->CS0055---E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0067---E1->CS0067---E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0108",
+     "AI Agent"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "HD-UI",
+   "evidence": [
+    {
+     "pair": "CS0026---E2->CS0026---E3",
+     "from_tech": [
+      "AML.T0071",
+      "False RAG Entry Injection"
+     ],
+     "to_tech": [
+      "AML.T0067.000",
+      "Citations"
+     ]
+    },
+    {
+     "pair": "CS0049---E2->CS0049---E3",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0074",
+      "Masquerading"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0067.000",
+     "Citations"
+    ],
+    [
+     "AML.T0074",
+     "Masquerading"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0021-A-E1->CS0021-A-E2",
+     "from_tech": [
+      "AML.T0078",
+      "Drive-by Compromise"
+     ],
+     "to_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ]
+    },
+    {
+     "pair": "CS0024---E3->CS0024---E4",
+     "from_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ],
+     "to_tech": [
+      "AML.T0061",
+      "LLM Prompt Self-Replication"
+     ]
+    },
+    {
+     "pair": "CS0026---E2->CS0026---E3",
+     "from_tech": [
+      "AML.T0071",
+      "False RAG Entry Injection"
+     ],
+     "to_tech": [
+      "AML.T0067.000",
+      "Citations"
+     ]
+    },
+    {
+     "pair": "CS0041---E2->CS0041---E3",
+     "from_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    },
+    {
+     "pair": "CS0064-A-E3->CS0064-A-E4",
+     "from_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ],
+     "to_tech": [
+      "AML.T0031",
+      "Erode AI Model Integrity"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0031",
+     "Erode AI Model Integrity"
+    ],
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ],
+    [
+     "AML.T0061",
+     "LLM Prompt Self-Replication"
+    ],
+    [
+     "AML.T0067.000",
+     "Citations"
+    ]
+   ]
+  },
+  {
+   "from": "ENT-II",
+   "to": "PST-MEM",
+   "evidence": [
+    {
+     "pair": "CS0038---E1->CS0038---E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0094",
+      "Delay Execution of LLM Instructions"
+     ]
+    },
+    {
+     "pair": "CS0063-A-E1->CS0063-A-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0063-B-E1->CS0063-B-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0063-C-E1->CS0063-C-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0063-D-E1->CS0063-D-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0063-E-E1->CS0063-E-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0063-F-E1->CS0063-F-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ]
+    },
+    {
+     "pair": "CS0066-B-E1->CS0066-B-E2",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0080.000",
+      "Memory"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0080.000",
+     "Memory"
+    ],
+    [
+     "AML.T0080.001",
+     "Thread"
+    ],
+    [
+     "AML.T0094",
+     "Delay Execution of LLM Instructions"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0053---E2->CS0053---E3",
+     "from_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "DAC-UBD",
+   "evidence": [
+    {
+     "pair": "CS0037---E2->CS0037---E3",
+     "from_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ],
+     "to_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ]
+    },
+    {
+     "pair": "CS0037---E4->CS0037---E5",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0038---E3->CS0038---E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0039---E2->CS0039---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0059---E3->CS0059---E4",
+     "from_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ],
+     "to_tech": [
+      "AML.T0085.000",
+      "RAG Databases"
+     ]
+    },
+    {
+     "pair": "CS0063-F-E3->CS0063-F-E4",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0064-B-E4->CS0064-B-E5",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-A-E2->CS0066-A-E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    },
+    {
+     "pair": "CS0066-C-E2->CS0066-C-E3",
+     "from_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0085.000",
+     "RAG Databases"
+    ],
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "ENT-II",
+   "evidence": [
+    {
+     "pair": "CS0051---E6->CS0051---E7",
+     "from_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ],
+     "to_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0108",
+     "AI Agent"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0052---E2->CS0052---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0050",
+      "Command and Scripting Interpreter"
+     ]
+    },
+    {
+     "pair": "CS0062---E2->CS0062---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0050",
+      "Command and Scripting Interpreter"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0050",
+     "Command and Scripting Interpreter"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    {
+     "pair": "CS0037---E6->CS0037---E7",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0039---E4->CS0039---E5",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0054---E5->CS0054---E6",
+     "from_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    },
+    {
+     "pair": "CS0064-B-E4->CS0064-B-E5",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-A-E4->CS0066-A-E5",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0066-C-E5->CS0066-C-E6",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "SC-DAT",
+   "evidence": [
+    {
+     "pair": "CS0063-B-E3->CS0063-B-E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0101",
+      "Data Destruction via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0101",
+     "Data Destruction via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-AT+PA-GA",
+   "to": "SC-SYS",
+   "evidence": [
+    {
+     "pair": "CS0063-C-E3->CS0063-C-E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-CS",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E3->CS0016-A-E4",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    },
+    {
+     "pair": "CS0045---E4->CS0045---E5",
+     "from_tech": [
+      "AML.T0083",
+      "Credentials from AI Agent Configuration"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0048-B-E3->CS0048-B-E4",
+     "from_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ],
+     "to_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-SRD",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E3->CS0016-A-E4",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "DAC-UBD",
+   "evidence": [
+    {
+     "pair": "CS0053---E3->CS0053---E4",
+     "from_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "ENT-II",
+   "evidence": [
+    {
+     "pair": "CS0064-A-E2->CS0064-A-E3",
+     "from_tech": [
+      "AML.T0011.000",
+      "Unsafe AI Artifacts"
+     ],
+     "to_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ]
+    },
+    {
+     "pair": "CS0064-B-E2->CS0064-B-E3",
+     "from_tech": [
+      "AML.T0011.000",
+      "Unsafe AI Artifacts"
+     ],
+     "to_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0051.002",
+     "Triggered"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0055---E5->CS0055---E6",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0112.000",
+      "Local AI Agent"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0112.000",
+     "Local AI Agent"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0055---E3->CS0055---E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    {
+     "pair": "CS0045---E4->CS0045---E5",
+     "from_tech": [
+      "AML.T0083",
+      "Credentials from AI Agent Configuration"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0049---E5->CS0049---E6",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0048",
+      "External Harms"
+     ]
+    },
+    {
+     "pair": "CS0052---E3->CS0052---E4",
+     "from_tech": [
+      "AML.T0050",
+      "Command and Scripting Interpreter"
+     ],
+     "to_tech": [
+      "AML.T0072",
+      "Cyber Communication Channel"
+     ]
+    },
+    {
+     "pair": "CS0053---E3->CS0053---E4",
+     "from_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048",
+     "External Harms"
+    ],
+    [
+     "AML.T0072",
+     "Cyber Communication Channel"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "PST-CFG",
+   "evidence": [
+    {
+     "pair": "CS0051---E3->CS0051---E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0081",
+      "Modify AI Agent Configuration"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0081",
+     "Modify AI Agent Configuration"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "SC-DAT",
+   "evidence": [
+    {
+     "pair": "CS0046---E3->CS0046---E4",
+     "from_tech": [
+      "AML.T0101",
+      "Data Destruction via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0101",
+      "Data Destruction via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0101",
+     "Data Destruction via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-CCE+PA-GA",
+   "to": "SC-SYS",
+   "evidence": [
+    {
+     "pair": "CS0016-B-E3->CS0016-B-E4",
+     "from_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ],
+     "to_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "DAC-CS",
+   "evidence": [
+    {
+     "pair": "CS0054---E3->CS0054---E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    },
+    {
+     "pair": "CS0067---E2->CS0067---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "DAC-SRD",
+   "evidence": [
+    {
+     "pair": "CS0067---E2->CS0067---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0046---E2->CS0046---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0101",
+      "Data Destruction via AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0048-B-E2->CS0048-B-E3",
+     "from_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ],
+     "to_tech": [
+      "AML.T0098",
+      "AI Agent Tool Credential Harvesting"
+     ]
+    },
+    {
+     "pair": "CS0049---E4->CS0049---E5",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0051---E2->CS0051---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0051---E8->CS0051---E9",
+     "from_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ],
+     "to_tech": [
+      "AML.T0108",
+      "AI Agent"
+     ]
+    },
+    {
+     "pair": "CS0055---E2->CS0055---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0055---E4->CS0055---E5",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    [
+     "AML.T0101",
+     "Data Destruction via AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0108",
+     "AI Agent"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "HD-UI",
+   "evidence": [
+    {
+     "pair": "CS0045---E2->CS0045---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "EXE-SCU+PA-GA",
+   "to": "OT-ER",
+   "evidence": [
+    {
+     "pair": "CS0063-D-E3->CS0063-D-E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0025",
+      "Exfiltration via Cyber Means"
+     ]
+    },
+    {
+     "pair": "CS0063-E-E3->CS0063-E-E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    },
+    {
+     "pair": "CS0063-F-E5->CS0063-F-E6",
+     "from_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0086",
+      "Exfiltration via AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0025",
+     "Exfiltration via Cyber Means"
+    ],
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "HD-UI",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0045---E3->CS0045---E4",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0083",
+      "Credentials from AI Agent Configuration"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0083",
+     "Credentials from AI Agent Configuration"
+    ]
+   ]
+  },
+  {
+   "from": "HD-UI",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0049---E3->CS0049---E4",
+     "from_tech": [
+      "AML.T0074",
+      "Masquerading"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0066-C-E4->CS0066-C-E5",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0016-A-E2->CS0016-A-E3",
+     "from_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ],
+     "to_tech": [
+      "AML.T0055",
+      "Unsecured Credentials"
+     ]
+    },
+    {
+     "pair": "CS0016-B-E2->CS0016-B-E3",
+     "from_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ],
+     "to_tech": [
+      "AML.T0029",
+      "Denial of AI Service"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ]
+   ]
+  },
+  {
+   "from": "OT-RG",
+   "to": "OT-ER",
+   "evidence": [
+    {
+     "pair": "CS0021-A-E2->CS0021-A-E3",
+     "from_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ],
+     "to_tech": [
+      "AML.T0077",
+      "LLM Response Rendering"
+     ]
+    },
+    {
+     "pair": "CS0059---E5->CS0059---E6",
+     "from_tech": [
+      "AML.T0067",
+      "LLM Trusted Output Components Manipulation"
+     ],
+     "to_tech": [
+      "AML.T0025",
+      "Exfiltration via Cyber Means"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0025",
+     "Exfiltration via Cyber Means"
+    ],
+    [
+     "AML.T0077",
+     "LLM Response Rendering"
+    ]
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "ENT-II",
+   "evidence": [
+    {
+     "pair": "CS0041---E1->CS0041---E2",
+     "from_tech": [
+      "AML.T0081",
+      "Modify AI Agent Configuration"
+     ],
+     "to_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ]
+    },
+    {
+     "pair": "CS0049---E1->CS0049---E2",
+     "from_tech": [
+      "AML.T0110.000",
+      "Definition and Instructions"
+     ],
+     "to_tech": [
+      "AML.T0051.001",
+      "Indirect"
+     ]
+    },
+    {
+     "pair": "CS0051---E4->CS0051---E5",
+     "from_tech": [
+      "AML.T0081",
+      "Modify AI Agent Configuration"
+     ],
+     "to_tech": [
+      "AML.T0051.000",
+      "Direct"
+     ]
+    },
+    {
+     "pair": "CS0054---E1->CS0054---E2",
+     "from_tech": [
+      "AML.T0010.005",
+      "AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ],
+    [
+     "AML.T0051.000",
+     "Direct"
+    ],
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ]
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "EXE-AT",
+   "evidence": [
+    {
+     "pair": "CS0053---E1->CS0053---E2",
+     "from_tech": [
+      "AML.T0010.005",
+      "AI Agent Tool"
+     ],
+     "to_tech": [
+      "AML.T0011.002",
+      "Poisoned AI Agent Tool"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ]
+   ]
+  },
+  {
+   "from": "PST-CFG",
+   "to": "EXE-CCE+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0064-A-E1->CS0064-A-E2",
+     "from_tech": [
+      "AML.T0010.003",
+      "Model"
+     ],
+     "to_tech": [
+      "AML.T0011.000",
+      "Unsafe AI Artifacts"
+     ]
+    },
+    {
+     "pair": "CS0064-B-E1->CS0064-B-E2",
+     "from_tech": [
+      "AML.T0010.003",
+      "Model"
+     ],
+     "to_tech": [
+      "AML.T0011.000",
+      "Unsafe AI Artifacts"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0011.000",
+     "Unsafe AI Artifacts"
+    ]
+   ]
+  },
+  {
+   "from": "PST-KB",
+   "to": "ENT-II",
+   "evidence": [
+    {
+     "pair": "CS0024---E2->CS0024---E3",
+     "from_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ],
+     "to_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ]
+    },
+    {
+     "pair": "CS0026---E1->CS0026---E2",
+     "from_tech": [
+      "AML.T0093",
+      "Prompt Infiltration via Public-Facing Application"
+     ],
+     "to_tech": [
+      "AML.T0071",
+      "False RAG Entry Injection"
+     ]
+    },
+    {
+     "pair": "CS0059---E1->CS0059---E2",
+     "from_tech": [
+      "AML.T0070",
+      "RAG Poisoning"
+     ],
+     "to_tech": [
+      "AML.T0051.002",
+      "Triggered"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0051.002",
+     "Triggered"
+    ],
+    [
+     "AML.T0071",
+     "False RAG Entry Injection"
+    ]
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "EXE-AT+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0038---E2->CS0038---E3",
+     "from_tech": [
+      "AML.T0094",
+      "Delay Execution of LLM Instructions"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0063-B-E2->CS0063-B-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0063-C-E2->CS0063-C-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0063-F-E2->CS0063-F-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0085.001",
+      "AI Agent Tools"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ]
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "EXE-SCU+PA-GA",
+   "evidence": [
+    {
+     "pair": "CS0063-D-E2->CS0063-D-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    },
+    {
+     "pair": "CS0063-E-E2->CS0063-E-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0053",
+      "AI Agent Tool Invocation"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ]
+   ]
+  },
+  {
+   "from": "PST-MEM",
+   "to": "OT-RG",
+   "evidence": [
+    {
+     "pair": "CS0063-A-E2->CS0063-A-E3",
+     "from_tech": [
+      "AML.T0080.001",
+      "Thread"
+     ],
+     "to_tech": [
+      "AML.T0048.003",
+      "User Harm"
+     ]
+    }
+   ],
+   "to_techniques": [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ]
+   ]
+  }
+ ],
+ "node_techniques": {
+  "ENT-DI": [
+   [
+    [
+     "AML.T0051.000",
+     "Direct"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0069.002",
+     "System Prompt"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ]
+  ],
+  "OT-RG": [
+   [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0061",
+     "LLM Prompt Self-Replication"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0067.000",
+     "Citations"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0069.002",
+     "System Prompt"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0067",
+     "LLM Trusted Output Components Manipulation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0031",
+     "Erode AI Model Integrity"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0057",
+     "LLM Data Leakage"
+    ],
+    1
+   ]
+  ],
+  "EXE-CCE+PA-GA": [
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    4
+   ],
+   [
+    [
+     "AML.T0050",
+     "Command and Scripting Interpreter"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0011.000",
+     "Unsafe AI Artifacts"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0083",
+     "Credentials from AI Agent Configuration"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0101",
+     "Data Destruction via AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0108",
+     "AI Agent"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0112.000",
+     "Local AI Agent"
+    ],
+    1
+   ]
+  ],
+  "DAC-CS": [
+   [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    1
+   ]
+  ],
+  "DAC-SRD": [
+   [
+    [
+     "AML.T0055",
+     "Unsecured Credentials"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0069.002",
+     "System Prompt"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    1
+   ]
+  ],
+  "SC-SYS": [
+   [
+    [
+     "AML.T0029",
+     "Denial of AI Service"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    1
+   ]
+  ],
+  "ENT-II": [
+   [
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ],
+    14
+   ],
+   [
+    [
+     "AML.T0078",
+     "Drive-by Compromise"
+    ],
+    5
+   ],
+   [
+    [
+     "AML.T0051.002",
+     "Triggered"
+    ],
+    4
+   ],
+   [
+    [
+     "AML.T0051.000",
+     "Direct"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0071",
+     "False RAG Entry Injection"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0047",
+     "AI-Enabled Product or Service"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0108",
+     "AI Agent"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ],
+    1
+   ]
+  ],
+  "DAC-UBD": [
+   [
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ],
+    6
+   ],
+   [
+    [
+     "AML.T0085.000",
+     "RAG Databases"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0051.001",
+     "Indirect"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0061",
+     "LLM Prompt Self-Replication"
+    ],
+    1
+   ]
+  ],
+  "OT-ER": [
+   [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    7
+   ],
+   [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0025",
+     "Exfiltration via Cyber Means"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0077",
+     "LLM Response Rendering"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0048",
+     "External Harms"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0072",
+     "Cyber Communication Channel"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ]
+  ],
+  "EXE-AT+PA-GA": [
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    9
+   ],
+   [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    4
+   ],
+   [
+    [
+     "AML.T0085.001",
+     "AI Agent Tools"
+    ],
+    3
+   ],
+   [
+    [
+     "AML.T0085.000",
+     "RAG Databases"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0108",
+     "AI Agent"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0048.003",
+     "User Harm"
+    ],
+    1
+   ]
+  ],
+  "PST-KB": [
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0093",
+     "Prompt Infiltration via Public-Facing Application"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0070",
+     "RAG Poisoning"
+    ],
+    1
+   ]
+  ],
+  "HD-UI": [
+   [
+    [
+     "AML.T0067.000",
+     "Citations"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0074",
+     "Masquerading"
+    ],
+    1
+   ]
+  ],
+  "PST-MEM": [
+   [
+    [
+     "AML.T0080.001",
+     "Thread"
+    ],
+    6
+   ],
+   [
+    [
+     "AML.T0094",
+     "Delay Execution of LLM Instructions"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0080.000",
+     "Memory"
+    ],
+    1
+   ]
+  ],
+  "PST-CFG": [
+   [
+    [
+     "AML.T0081",
+     "Modify AI Agent Configuration"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0010.005",
+     "AI Agent Tool"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0010.003",
+     "Model"
+    ],
+    2
+   ],
+   [
+    [
+     "AML.T0110.000",
+     "Definition and Instructions"
+    ],
+    1
+   ]
+  ],
+  "EXE-SCU+PA-GA": [
+   [
+    [
+     "AML.T0053",
+     "AI Agent Tool Invocation"
+    ],
+    11
+   ],
+   [
+    [
+     "AML.T0098",
+     "AI Agent Tool Credential Harvesting"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0108",
+     "AI Agent"
+    ],
+    1
+   ],
+   [
+    [
+     "AML.T0086",
+     "Exfiltration via AI Agent Tool Invocation"
+    ],
+    1
+   ]
+  ],
+  "SC-DAT": [
+   [
+    [
+     "AML.T0101",
+     "Data Destruction via AI Agent Tool Invocation"
+    ],
+    2
+   ]
+  ],
+  "EXE-AT": [
+   [
+    [
+     "AML.T0011.002",
+     "Poisoned AI Agent Tool"
+    ],
+    1
+   ]
+  ]
+ }
+}

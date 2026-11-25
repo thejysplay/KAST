@@ -1,0 +1,17 @@
+{
+  "quoted_only": [
+    "agentdojo_banking__0005__R4-065664",
+    "agentdojo_workspace__0110__R4-000009",
+    "agentdojo_workspace__0155__R4-000009",
+    "agentdyn-dailylife__0118__R4-000009",
+    "agentdyn-dailylife__0221__R4-000008",
+    "agentdyn-github__0049__R4-000008",
+    "agentdyn-github__0118__R4-000008",
+    "agentdyn-github__0119__R4-000009",
+    "agentdyn-shopping__0090__R4-000009",
+    "appworld__0926__R4-000009"
+  ],
+  "retained_user_addressed_email": [
+    "agentdyn-shopping__0052__R4-000009"
+  ]
+}
